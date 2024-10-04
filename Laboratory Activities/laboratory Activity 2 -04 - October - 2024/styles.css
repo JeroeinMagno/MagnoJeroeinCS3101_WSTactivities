@@ -1,4 +1,3 @@
-/* Import Circular Std */
 @import url('https://fonts.googleapis.com/css2?family=Circular+Std:wght@400;700&display=swap');
 
 body {
@@ -14,43 +13,50 @@ body {
 .vision-board {
     text-align: center;
     background-color: #191414;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.2);
     width: 85%;
     max-width: 1000px;
+    transition: box-shadow 0.3s ease;
+}
+
+.vision-board:hover {
+    box-shadow: 0 20px 60px rgba(255, 255, 255, 0.4);
 }
 
 h1 {
     color: #1DB954;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 100%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .reminder {
     background-color: #1DB954;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 22px;
     margin-bottom: 20px;
     color: #ffffff;
     font-weight: 400;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .reminder:hover {
     transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
 }
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
@@ -58,23 +64,24 @@ h1 {
     background-color: #333333;
     border: 2px solid #1DB954;
     border-radius: 10px;
-    height: 100px; /* Increased height for better visual */
-    width: 100%; /* Ensures the div stretches to fit the grid */
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image-grid div:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.4);
 }
 
 .image-grid div img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image fills the entire box */
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -89,7 +96,7 @@ h1 {
     background-color: #333333;
     border: 2px solid #1DB954;
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
     text-align: left;
     color: #1DB954;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -97,7 +104,7 @@ h1 {
 
 .goals:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
 }
 
 .goals ul {
@@ -125,50 +132,50 @@ h1 {
     background-color: #333333;
     border: 2px solid #1DB954;
     border-radius: 10px;
-    height: 200px; /* Set a fixed height for large images */
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .large-image:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.4);
 }
 
 .large-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image fills the container */
+    object-fit: cover;
     border-radius: 10px;
 }
 
-/* Add responsiveness */
 @media (max-width: 768px) {
     .image-grid {
-        grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on small screens */
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .content-grid {
-        grid-template-columns: 1fr; /* Single column on small screens */
+        grid-template-columns: 1fr;
     }
 
     .vision-board {
-        padding: 15px;
+        padding: 20px;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 480px) {
     .image-grid {
-        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .large-image {
-        height: 150px; /* Adjust large image size for smaller screens */
+        height: 150px;
     }
 }
