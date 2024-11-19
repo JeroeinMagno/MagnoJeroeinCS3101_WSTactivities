@@ -1,0 +1,94 @@
+/* General body styles */
+body {
+    background-color: #001f3f; /* Royal Blue */
+    color: #FFD700; /* Yellow Gold */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+h2 {
+    color: #FFD700; /* Yellow Gold */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    max-width: 700px;
+    height: 250px;
+    align-items: center;
+    margin: 10px 0;
+    background: #002B5C;
+    border: 2px solid #FFD700;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 20px;
+    color: #FFD700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    resize: none;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    align-items: center;
+    border-color: #FFA500; /* Lighter Yellow */
+    box-shadow: 0 4px 12px rgba(255, 165, 0, 0.5);
+}
+
+/* Counters container */
+#countContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+#wordCount, #sentenceCount {
+    font-size: 1.2rem;
+    background: #002B5C;
+    align-items: center;
+    padding: 14px 20px;
+    border-radius: 15px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#wordCount:hover, #sentenceCount:hover {
+    background: #FFD700; /* Yellow Hover */
+    color: #001f3f; /* Royal Blue Text */
+    border-color: #001f3f;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #FFD700;
+    text-align: center;
+}
