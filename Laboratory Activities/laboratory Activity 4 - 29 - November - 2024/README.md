@@ -40,10 +40,13 @@ This is an interactive personal portfolio website featuring modern animations an
 ## Project Structure
 
 ```
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and animations
-├── script.js           # JavaScript for interactive features
-└── assets/            # Directory containing images and resources
+├── README.md          # Documentation (3 KB)
+├── personal-page-output.png  # Screenshot of the page (991 KB)
+├── peronal page animations.mp4  # Demo video (16.7 MB)
+├── index.html         # Main HTML file (11 KB)
+├── styles.css         # CSS styles and animations (14 KB)
+├── script.js          # JavaScript for interactive features (7 KB)
+└── assets/           # Directory containing images and resources
     └── profile.jpg    # Profile image
 ```
 
