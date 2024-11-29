@@ -7,7 +7,7 @@ const config = {
     glowIntensity: 0.8
 };
 
-// Create particle background
+
 function createParticleBackground() {
     const container = document.getElementById('particles');
     const particleCount = 50;
