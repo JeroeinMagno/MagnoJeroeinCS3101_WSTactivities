@@ -9,17 +9,17 @@ This is an interactive personal portfolio website featuring modern animations an
 - Particles respond to mouse movement
 - Creates a dynamic and engaging visual effect
 
-### 3. Interactive Elements
+### 2. Interactive Elements
 - Hover effects on buttons and links
 - Tooltip animations on hobby items
 - Smooth transitions on interactive elements
 
-### 4. Timeline Animation
+### 3. Timeline Animation
 - Animated timeline for experience and projects
 - Progressive reveal of timeline items
 - Engaging way to display chronological information
 
-### 5. Profile Section
+### 4. Profile Section
 - Animated profile image
 - Smooth text animations
 - Dynamic content presentation
