@@ -42,7 +42,7 @@ This is an interactive personal portfolio website featuring modern animations an
 ├── styles.css         # CSS styles and animations (14 KB)
 ├── script.js          # JavaScript for interactive features (7 KB)
 └── assets/           # Directory containing images and resources
-    └── profile.jpg    # Profile image
+    └── profile1.jpg    # Profile image
 ```
 
 ## Animation Details
