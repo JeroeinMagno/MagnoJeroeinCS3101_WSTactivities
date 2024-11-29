@@ -9,11 +9,6 @@ This is an interactive personal portfolio website featuring modern animations an
 - Particles respond to mouse movement
 - Creates a dynamic and engaging visual effect
 
-### 2. Smooth Scroll Animations
-- Elements fade in and slide up as you scroll through the page
-- Smooth transitions between sections
-- Enhanced user experience with scroll-triggered animations
-
 ### 3. Interactive Elements
 - Hover effects on buttons and links
 - Tooltip animations on hobby items
